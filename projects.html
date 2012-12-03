@@ -1,0 +1,791 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <meta name="copyright" content="Arthography, Copyright (c) 2012" />
+    <link href="stylesheets/lib/bootstrap.css" media="all" rel="stylesheet" type="text/css">
+    <link href="stylesheets/lib/colorbox.css" media="all" rel="stylesheet" type="text/css">
+    <script type='text/javascript' src='js/lib/jquery-1.8.2.js'></script>
+    <script type='text/javascript' src='js/lib/bootstrap-transition.js'></script>
+    <script type='text/javascript' src='js/lib/bootstrap-carousel.js'></script>
+    <script type='text/javascript' src='js/lib/jquery.colorbox.js'></script>
+    <script type='text/javascript' src='js/lib/jquery.quicksand.js'></script>
+    <script type='text/javascript' src='js/index.js'></script>
+    <script type='text/javascript' src='js/lib/jquery.placeholder.min.js'></script>
+    <link href="stylesheets/fonts.css" media="all" rel="stylesheet" type="text/css">
+    <link href="stylesheets/base.css" media="all" rel="stylesheet" type="text/css">
+    <link href="stylesheets/same.css" media="all" rel="stylesheet" type="text/css">
+    <link href="stylesheets/projects.css" media="all" rel="stylesheet" type="text/css">
+    <!--[if lte IE 8]>
+      <link href="stylesheets/ie.css" media="all" rel="stylesheet" type="text/css">
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper clearfix">
+      <div class="white-mask"></div>
+      <div class="shadows"></div>
+      <div class="container clearfix">
+        <div class="header clearfix">
+          <div class="header-inner clearfix">
+            <div class="logo">
+              <a href="#"></a>
+            </div>
+            <div class="nav">
+              <ul>
+                <li>
+                  <div class="studio-back"></div>
+                  <div class="nav-link">
+                    <a href="#">
+                      Студия
+                      <div class="nav-line"></div>
+                    </a>
+                  </div>
+                </li>
+                <li class="current">
+                  <div class="projects-back"></div>
+                  <div class="nav-link">
+                    <a href="#">
+                      Проекты
+                      <div class="nav-line"></div>
+                    </a>
+                  </div>
+                </li>
+                <li>
+                  <div class="blog-back"></div>
+                  <div class="nav-link">
+                    <a href="#">
+                      Блог
+                      <div class="nav-line"></div>
+                    </a>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="page-nav-back">
+              <ul class="page-nav clearfix">
+                <li class="segment-0 link-first selected" data-id='0'>
+                  <div class="red-bg first-element"></div>
+                  <a href="#" data-value="all">Все</a>
+                </li>
+                <li class="segment-1" data-id='1'>
+                  <div class="red-bg"></div>
+                  <a href="#" data-value="logotype">Логотип</a>
+                </li>
+                <li class="segment-2" data-id='2'>
+                  <div class="red-bg"></div>
+                  <a href="#" data-value="corporate-id">Фирменный стиль</a>
+                </li>
+                <li class="segment-3" data-id='3'>
+                  <div class="red-bg"></div>
+                  <a href="#" data-value="ideas">Идеи</a>
+                </li>
+                <li class="segment-4" data-id='4'>
+                  <div class="red-bg"></div>
+                  <a href="#" data-value="website">Сайт</a>
+                </li>
+                <li class="segment-5 link-last" data-id='5'>
+                  <div class="red-bg last-element"></div>
+                  <a href="#" data-value="environment">Среда</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="page-content clearfix">
+          <ul id="source" class="product-list image-grid clearfix">
+            <li data-id="id-1" class="product-teaser corporate-id">
+              <a href="#">
+                <div class="product-image">
+                  <img src="images/content-pics/jj-7.png">
+                  <div class="current-mask">
+                    <img src="images/content-pics/jj-red.png">
+                  </div>
+                </div>
+                <div class="product-name">John Junior</div>
+              </a>
+              <a class="category-quicksand" href='#' data-id='2'>Фирменный стиль</a>
+            </li>
+            <li data-id="id-2" class="product-teaser corporate-id">
+              <a href="#">
+                <div class="product-image">
+                  <img src="images/content-pics/oldhipster-pr.png">
+                  <div class="current-mask">
+                    <img src="images/content-pics/oldhipster-red.png">
+                  </div>
+                </div>
+                <div class="product-name">Oldhipster</div>
+              </a>
+              <a class="category-quicksand" href='#' data-id='2'>Фирменный стиль</a>
+            </li>
+            <li data-id="id-3" class="product-teaser logotype">
+              <a href="#">
+                <div class="product-image">
+                  <img src="images/content-pics/felicino.png">
+                  <div class="current-mask">
+                    <img src="images/content-pics/felicino-red.png">
+                  </div>
+                </div>
+                <div class="product-name">Избранные логотипы</div>
+              </a>
+              <a class="category-quicksand" href='#' data-id='1'>Логотип</a>
+            </li>
+            <li data-id="id-4" class="product-teaser ideas">
+              <a href="#">
+                <div class="product-image">
+                  <img src="images/content-pics/elki-palki.png">
+                  <div class="current-mask">
+                    <img src="images/content-pics/elki-palki-red.png">
+                  </div>
+                </div>
+                <div class="product-name">Елки-палки</div>
+              </a>
+              <a class="category-quicksand" href='#' data-id='3'>Идеи</a>
+            </li>
+            <li data-id="id-5" class="product-teaser ideas">
+              <a href="#">
+                <div class="product-image">
+                  <img src="images/content-pics/2011.png">
+                  <div class="current-mask">
+                    <img src="images/content-pics/2011-red.png">
+                  </div>
+                </div>
+                <div class="product-name">2011</div>
+              </a>
+              <a class="category-quicksand" href='#' data-id='3'>Идеи</a>
+            </li>
+            <li data-id="id-6" class="product-teaser website">
+              <a href="#">
+                <div class="product-image">
+                  <img src="images/content-pics/ermak-info.png">
+                  <div class="current-mask">
+                    <img src="images/content-pics/ermak-info-red.png">
+                  </div>
+                </div>
+                <div class="product-name">Ермак-Инфо</div>
+              </a>
+              <a class="category-quicksand" href='#' data-id='4'>Сайт</a>
+            </li>
+            <li data-id="id-7" class="product-teaser corporate-id">
+              <a href="#">
+                <div class="product-image">
+                  <img src="images/content-pics/anvi.png">
+                  <div class="current-mask">
+                    <img src="images/content-pics/anvi-red.png">
+                  </div>
+                </div>
+                <div class="product-name">Anvi Deluxe</div>
+              </a>
+              <a class="category-quicksand" href='#' data-id='2'>Фирменный стиль</a>
+            </li>
+            <li data-id="id-8" class="product-teaser corporate-id">
+              <a href="#">
+                <div class="product-image">
+                  <img src="images/content-pics/gcn.png">
+                  <div class="current-mask">
+                    <img src="images/content-pics/gcn-red.png">
+                  </div>
+                </div>
+                <div class="product-name">ГЦН</div>
+              </a>
+              <a class="category-quicksand" href='#' data-id='2'>Фирменный стиль</a>
+            </li>
+            <li data-id="id-9" class="product-teaser corporate-id">
+              <a href="#">
+                <div class="product-image">
+                  <img src="images/content-pics/3kita.png">
+                  <div class="current-mask">
+                    <img src="images/content-pics/3kita-red.png">
+                  </div>
+                </div>
+                <div class="product-name">3 кита</div>
+              </a>
+              <a class="category-quicksand" href='#' data-id='2'>Фирменный стиль</a>
+            </li>
+            <li data-id="id-10" class="product-teaser environment">
+              <a href="#">
+                <div class="product-image">
+                  <img src="images/content-pics/22shots.png">
+                  <div class="current-mask">
+                    <img src="images/content-pics/22shots-red.png">
+                  </div>
+                </div>
+                <div class="product-name">22 shots</div>
+              </a>
+              <a class="category-quicksand" href='#' data-id='5'>Среда</a>
+            </li>
+            <li data-id="id-11" class="product-teaser corporate-id">
+              <a href="#">
+                <div class="product-image">
+                  <img src="images/content-pics/legion.png">
+                  <div class="current-mask">
+                    <img src="images/content-pics/legion-red.png">
+                  </div>
+                </div>
+                <div class="product-name">Легион</div>
+              </a>
+              <a class="category-quicksand" href='#' data-id='2'>Фирменный стиль</a>
+            </li>
+            <li data-id="id-12" class="product-teaser ideas">
+              <a href="#">
+                <div class="product-image">
+                  <img src="images/content-pics/palki-igolki.png">
+                  <div class="current-mask">
+                    <img src="images/content-pics/needles-red.png">
+                  </div>
+                </div>
+                <div class="product-name">Палки-иголки</div>
+              </a>
+              <a class="category-quicksand" href='#' data-id='3'>Идеи</a>
+            </li>
+            <li data-id="id-13" class="product-teaser corporate-id">
+              <a href="#">
+                <div class="product-image">
+                  <img src="images/content-pics/dmitriy-shentyapin.png">
+                  <div class="current-mask">
+                    <img src="images/content-pics/shentyapin-red.png">
+                  </div>
+                </div>
+                <div class="product-name">Дмитрий Шентяпин</div>
+              </a>
+              <a class="category-quicksand" href='#' data-id='2'>Фирменный стиль</a>
+            </li>
+            <li data-id="id-14" class="product-teaser website">
+              <a href="#">
+                <div class="product-image">
+                  <img src="images/content-pics/sales-star.png">
+                  <div class="current-mask">
+                    <img src="images/content-pics/sales-star-red.png">
+                  </div>
+                </div>
+                <div class="product-name">Sales Star</div>
+              </a>
+              <a class="category-quicksand" href='#' data-id='4'>Сайт</a>
+            </li>
+            <li data-id="id-15" class="product-teaser ideas">
+              <a href="#">
+                <div class="product-image">
+                  <img src="images/content-pics/dots.png">
+                  <div class="current-mask">
+                    <img src="images/content-pics/dots-red.png">
+                  </div>
+                </div>
+                <div class="product-name">Точки</div>
+              </a>
+              <a class="category-quicksand" href='#' data-id='3'>Идеи</a>
+            </li>
+            <li data-id="id-16" class="product-teaser website">
+              <a href="#">
+                <div class="product-image">
+                  <img src="images/content-pics/mtr.png">
+                  <div class="current-mask">
+                    <img src="images/content-pics/mtr-red.png">
+                  </div>
+                </div>
+                <div class="product-name">МТР</div>
+              </a>
+              <a class="category-quicksand" href='#' data-id='4'>Сайт</a>
+            </li>
+            <li data-id="id-17" class="product-teaser website">
+              <a href="#">
+                <div class="product-image">
+                  <img src="images/content-pics/levenhuk.png">
+                  <div class="current-mask">
+                    <img src="images/content-pics/levenhuk-red.png">
+                  </div>
+                </div>
+                <div class="product-name">Levenhuk</div>
+              </a>
+              <a class="category-quicksand" href='#' data-id='4'>Сайт</a>
+            </li>
+            <li data-id="id-18" class="product-teaser corporate-id">
+              <a href="#">
+                <div class="product-image">
+                  <img src="images/content-pics/znak.png">
+                  <div class="current-mask">
+                    <img src="images/content-pics/znak-red.png">
+                  </div>
+                </div>
+                <div class="product-name">Znak</div>
+              </a>
+              <a class="category-quicksand" href='#' data-id='1'>Логотип</a>
+            </li>
+          </ul>
+          <ul id="segment-0" class="product-list image-grid clearfix" style='display: none'>
+            <li data-id="id-1" class="product-teaser corporate-id">
+              <a href="#">
+                <div class="product-image">
+                  <img src="images/content-pics/jj-7.png">
+                  <div class="current-mask">
+                    <img src="images/content-pics/jj-red.png">
+                  </div>
+                </div>
+                <div class="product-name">John Junior</div>
+              </a>
+              <a class="category-quicksand" href='#' data-id='2'>Фирменный стиль</a>
+            </li>
+            <li data-id="id-2" class="product-teaser corporate-id">
+              <a href="#">
+                <div class="product-image">
+                  <img src="images/content-pics/oldhipster-pr.png">
+                  <div class="current-mask">
+                    <img src="images/content-pics/oldhipster-red.png">
+                  </div>
+                </div>
+                <div class="product-name">Oldhipster</div>
+              </a>
+              <a class="category-quicksand" href='#' data-id='2'>Фирменный стиль</a>
+            </li>
+            <li data-id="id-3" class="product-teaser logotype">
+              <a href="#">
+                <div class="product-image">
+                  <img src="images/content-pics/felicino.png">
+                  <div class="current-mask">
+                    <img src="images/content-pics/felicino-red.png">
+                  </div>
+                </div>
+                <div class="product-name">Избранные логотипы</div>
+              </a>
+              <a class="category-quicksand" href='#' data-id='1'>Логотип</a>
+            </li>
+            <li data-id="id-4" class="product-teaser ideas">
+              <a href="#">
+                <div class="product-image">
+                  <img src="images/content-pics/elki-palki.png">
+                  <div class="current-mask">
+                    <img src="images/content-pics/elki-palki-red.png">
+                  </div>
+                </div>
+                <div class="product-name">Елки-палки</div>
+              </a>
+              <a class="category-quicksand" href='#' data-id='3'>Идеи</a>
+            </li>
+            <li data-id="id-5" class="product-teaser ideas">
+              <a href="#">
+                <div class="product-image">
+                  <img src="images/content-pics/2011.png">
+                  <div class="current-mask">
+                    <img src="images/content-pics/2011-red.png">
+                  </div>
+                </div>
+                <div class="product-name">2011</div>
+              </a>
+              <a class="category-quicksand" href='#' data-id='3'>Идеи</a>
+            </li>
+            <li data-id="id-6" class="product-teaser website">
+              <a href="#">
+                <div class="product-image">
+                  <img src="images/content-pics/ermak-info.png">
+                  <div class="current-mask">
+                    <img src="images/content-pics/ermak-info-red.png">
+                  </div>
+                </div>
+                <div class="product-name">Ермак-Инфо</div>
+              </a>
+              <a class="category-quicksand" href='#' data-id='4'>Сайт</a>
+            </li>
+            <li data-id="id-7" class="product-teaser corporate-id">
+              <a href="#">
+                <div class="product-image">
+                  <img src="images/content-pics/anvi.png">
+                  <div class="current-mask">
+                    <img src="images/content-pics/anvi-red.png">
+                  </div>
+                </div>
+                <div class="product-name">Anvi Deluxe</div>
+              </a>
+              <a class="category-quicksand" href='#' data-id='2'>Фирменный стиль</a>
+            </li>
+            <li data-id="id-8" class="product-teaser corporate-id">
+              <a href="#">
+                <div class="product-image">
+                  <img src="images/content-pics/gcn.png">
+                  <div class="current-mask">
+                    <img src="images/content-pics/gcn-red.png">
+                  </div>
+                </div>
+                <div class="product-name">ГЦН</div>
+              </a>
+              <a class="category-quicksand" href='#' data-id='2'>Фирменный стиль</a>
+            </li>
+            <li data-id="id-9" class="product-teaser corporate-id">
+              <a href="#">
+                <div class="product-image">
+                  <img src="images/content-pics/3kita.png">
+                  <div class="current-mask">
+                    <img src="images/content-pics/3kita-red.png">
+                  </div>
+                </div>
+                <div class="product-name">3 кита</div>
+              </a>
+              <a class="category-quicksand" href='#' data-id='2'>Фирменный стиль</a>
+            </li>
+            <li data-id="id-10" class="product-teaser environment">
+              <a href="#">
+                <div class="product-image">
+                  <img src="images/content-pics/22shots.png">
+                  <div class="current-mask">
+                    <img src="images/content-pics/22shots-red.png">
+                  </div>
+                </div>
+                <div class="product-name">22 shots</div>
+              </a>
+              <a class="category-quicksand" href='#' data-id='5'>Среда</a>
+            </li>
+            <li data-id="id-11" class="product-teaser corporate-id">
+              <a href="#">
+                <div class="product-image">
+                  <img src="images/content-pics/legion.png">
+                  <div class="current-mask">
+                    <img src="images/content-pics/legion-red.png">
+                  </div>
+                </div>
+                <div class="product-name">Легион</div>
+              </a>
+              <a class="category-quicksand" href='#' data-id='2'>Фирменный стиль</a>
+            </li>
+            <li data-id="id-12" class="product-teaser ideas">
+              <a href="#">
+                <div class="product-image">
+                  <img src="images/content-pics/palki-igolki.png">
+                  <div class="current-mask">
+                    <img src="images/content-pics/needles-red.png">
+                  </div>
+                </div>
+                <div class="product-name">Палки-иголки</div>
+              </a>
+              <a class="category-quicksand" href='#' data-id='3'>Идеи</a>
+            </li>
+            <li data-id="id-13" class="product-teaser corporate-id">
+              <a href="#">
+                <div class="product-image">
+                  <img src="images/content-pics/dmitriy-shentyapin.png">
+                  <div class="current-mask">
+                    <img src="images/content-pics/shentyapin-red.png">
+                  </div>
+                </div>
+                <div class="product-name">Дмитрий Шентяпин</div>
+              </a>
+              <a class="category-quicksand" href='#' data-id='2'>Фирменный стиль</a>
+            </li>
+            <li data-id="id-14" class="product-teaser website">
+              <a href="#">
+                <div class="product-image">
+                  <img src="images/content-pics/sales-star.png">
+                  <div class="current-mask">
+                    <img src="images/content-pics/sales-star-red.png">
+                  </div>
+                </div>
+                <div class="product-name">Sales Star</div>
+              </a>
+              <a class="category-quicksand" href='#' data-id='4'>Сайт</a>
+            </li>
+            <li data-id="id-15" class="product-teaser ideas">
+              <a href="#">
+                <div class="product-image">
+                  <img src="images/content-pics/dots.png">
+                  <div class="current-mask">
+                    <img src="images/content-pics/dots-red.png">
+                  </div>
+                </div>
+                <div class="product-name">Точки</div>
+              </a>
+              <a class="category-quicksand" href='#' data-id='3'>Идеи</a>
+            </li>
+            <li data-id="id-16" class="product-teaser website">
+              <a href="#">
+                <div class="product-image">
+                  <img src="images/content-pics/mtr.png">
+                  <div class="current-mask">
+                    <img src="images/content-pics/mtr-red.png">
+                  </div>
+                </div>
+                <div class="product-name">МТР</div>
+              </a>
+              <a class="category-quicksand" href='#' data-id='4'>Сайт</a>
+            </li>
+            <li data-id="id-17" class="product-teaser website">
+              <a href="#">
+                <div class="product-image">
+                  <img src="images/content-pics/levenhuk.png">
+                  <div class="current-mask">
+                    <img src="images/content-pics/levenhuk-red.png">
+                  </div>
+                </div>
+                <div class="product-name">Levenhuk</div>
+              </a>
+              <a class="category-quicksand" href='#' data-id='4'>Сайт</a>
+            </li>
+            <li data-id="id-18" class="product-teaser corporate-id">
+              <a href="#">
+                <div class="product-image">
+                  <img src="images/content-pics/znak.png">
+                  <div class="current-mask">
+                    <img src="images/content-pics/znak-red.png">
+                  </div>
+                </div>
+                <div class="product-name">Znak</div>
+              </a>
+              <a class="category-quicksand" href='#' data-id='1'>Логотип</a>
+            </li>
+          </ul>
+          <ul id="segment-1" class="product-list image-grid clearfix" style='display: none'>
+            <li data-id="id-3" class="product-teaser logotype">
+              <a href="#">
+                <div class="product-image">
+                  <img src="images/content-pics/felicino.png">
+                  <div class="current-mask">
+                    <img src="images/content-pics/felicino-red.png">
+                  </div>
+                </div>
+                <div class="product-name">Избранные логотипы</div>
+              </a>
+              <span class="category-quicksand" href='#' data-id='1'>Логотип</span>
+            </li>
+            <li data-id="id-18" class="product-teaser corporate-id">
+              <a href="#">
+                <div class="product-image">
+                  <img src="images/content-pics/znak.png">
+                  <div class="current-mask">
+                    <img src="images/content-pics/znak-red.png">
+                  </div>
+                </div>
+                <div class="product-name">Znak</div>
+              </a>
+              <span class="category-quicksand" href='#' data-id='1'>Логотип</span>
+            </li>
+          </ul>
+          <ul id="segment-2" class="product-list image-grid clearfix" style='display: none'>
+            <li data-id="id-1" class="product-teaser corporate-id">
+              <a href="#">
+                <div class="product-image">
+                  <img src="images/content-pics/jj-7.png">
+                  <div class="current-mask">
+                    <img src="images/content-pics/jj-red.png">
+                  </div>
+                </div>
+                <div class="product-name">John Junior</div>
+              </a>
+              <span class="category-quicksand" href='#' data-id='2'>Фирменный стиль</span>
+            </li>
+            <li data-id="id-2" class="product-teaser corporate-id">
+              <a href="#">
+                <div class="product-image">
+                  <img src="images/content-pics/oldhipster-pr.png">
+                  <div class="current-mask">
+                    <img src="images/content-pics/oldhipster-red.png">
+                  </div>
+                </div>
+                <div class="product-name">Oldhipster</div>
+              </a>
+              <span class="category-quicksand" href='#' data-id='2'>Фирменный стиль</span>
+            </li>
+            <li data-id="id-7" class="product-teaser corporate-id">
+              <a href="#">
+                <div class="product-image">
+                  <img src="images/content-pics/anvi.png">
+                  <div class="current-mask">
+                    <img src="images/content-pics/anvi-red.png">
+                  </div>
+                </div>
+                <div class="product-name">Anvi Deluxe</div>
+              </a>
+              <span class="category-quicksand" href='#' data-id='2'>Фирменный стиль</span>
+            </li>
+            <li data-id="id-8" class="product-teaser corporate-id">
+              <a href="#">
+                <div class="product-image">
+                  <img src="images/content-pics/gcn.png">
+                  <div class="current-mask">
+                    <img src="images/content-pics/gcn-red.png">
+                  </div>
+                </div>
+                <div class="product-name">ГЦН</div>
+              </a>
+              <span class="category-quicksand" href='#' data-id='2'>Фирменный стиль</span>
+            </li>
+            <li data-id="id-9" class="product-teaser corporate-id">
+              <a href="#">
+                <div class="product-image">
+                  <img src="images/content-pics/3kita.png">
+                  <div class="current-mask">
+                    <img src="images/content-pics/3kita-red.png">
+                  </div>
+                </div>
+                <div class="product-name">3 кита</div>
+              </a>
+              <span class="category-quicksand" href='#' data-id='2'>Фирменный стиль</span>
+            </li>
+            <li data-id="id-11" class="product-teaser corporate-id">
+              <a href="#">
+                <div class="product-image">
+                  <img src="images/content-pics/legion.png">
+                  <div class="current-mask">
+                    <img src="images/content-pics/legion-red.png">
+                  </div>
+                </div>
+                <div class="product-name">Легион</div>
+              </a>
+              <span class="category-quicksand" href='#' data-id='2'>Фирменный стиль</span>
+            </li>
+            <li data-id="id-13" class="product-teaser corporate-id">
+              <a href="#">
+                <div class="product-image">
+                  <img src="images/content-pics/dmitriy-shentyapin.png">
+                  <div class="current-mask">
+                    <img src="images/content-pics/shentyapin-red.png">
+                  </div>
+                </div>
+                <div class="product-name">Дмитрий Шентяпин</div>
+              </a>
+              <span class="category-quicksand" href='#' data-id='2'>Фирменный стиль</span>
+            </li>
+          </ul>
+          <ul id="segment-3" class="product-list image-grid clearfix" style='display: none'>
+            <li data-id="id-4" class="product-teaser ideas">
+              <a href="#">
+                <div class="product-image">
+                  <img src="images/content-pics/elki-palki.png">
+                  <div class="current-mask">
+                    <img src="images/content-pics/elki-palki-red.png">
+                  </div>
+                </div>
+                <div class="product-name">Елки-палки</div>
+              </a>
+              <span class="category-quicksand" href='#' data-id='3'>Идеи</span>
+            </li>
+            <li data-id="id-5" class="product-teaser ideas">
+              <a href="#">
+                <div class="product-image">
+                  <img src="images/content-pics/2011.png">
+                  <div class="current-mask">
+                    <img src="images/content-pics/2011-red.png">
+                  </div>
+                </div>
+                <div class="product-name">2011</div>
+              </a>
+              <span class="category-quicksand" href='#' data-id='3'>Идеи</span>
+            </li>
+            <li data-id="id-12" class="product-teaser ideas">
+              <a href="#">
+                <div class="product-image">
+                  <img src="images/content-pics/palki-igolki.png">
+                  <div class="current-mask">
+                    <img src="images/content-pics/needles-red.png">
+                  </div>
+                </div>
+                <div class="product-name">Палки-иголки</div>
+              </a>
+              <span class="category-quicksand" href='#' data-id='3'>Идеи</span>
+            </li>
+            <li data-id="id-15" class="product-teaser ideas">
+              <a href="#">
+                <div class="product-image">
+                  <img src="images/content-pics/dots.png">
+                  <div class="current-mask">
+                    <img src="images/content-pics/dots-red.png">
+                  </div>
+                </div>
+                <div class="product-name">Точки</div>
+              </a>
+              <span class="category-quicksand" href='#' data-id='3'>Идеи</span>
+            </li>
+          </ul>
+          <ul id="segment-4" class="product-list image-grid clearfix" style='display: none'>
+            <li data-id="id-6" class="product-teaser website">
+              <a href="#">
+                <div class="product-image">
+                  <img src="images/content-pics/ermak-info.png">
+                  <div class="current-mask">
+                    <img src="images/content-pics/ermak-info-red.png">
+                  </div>
+                </div>
+                <div class="product-name">Ермак-Инфо</div>
+              </a>
+              <span class="category-quicksand" href='#' data-id='4'>Сайт</span>
+            </li>
+            <li data-id="id-14" class="product-teaser website">
+              <a href="#">
+                <div class="product-image">
+                  <img src="images/content-pics/sales-star.png">
+                  <div class="current-mask">
+                    <img src="images/content-pics/sales-star-red.png">
+                  </div>
+                </div>
+                <div class="product-name">Sales Star</div>
+              </a>
+              <span class="category-quicksand" href='#' data-id='4'>Сайт</span>
+            </li>
+            <li data-id="id-16" class="product-teaser website">
+              <a href="#">
+                <div class="product-image">
+                  <img src="images/content-pics/mtr.png">
+                  <div class="current-mask">
+                    <img src="images/content-pics/mtr-red.png">
+                  </div>
+                </div>
+                <div class="product-name">МТР</div>
+              </a>
+              <span class="category-quicksand" href='#' data-id='4'>Сайт</span>
+            </li>
+            <li data-id="id-17" class="product-teaser website">
+              <a href="#">
+                <div class="product-image">
+                  <img src="images/content-pics/levenhuk.png">
+                  <div class="current-mask">
+                    <img src="images/content-pics/levenhuk-red.png">
+                  </div>
+                </div>
+                <div class="product-name">Levenhuk</div>
+              </a>
+              <span class="category-quicksand" href='#' data-id='4'>Сайт</span>
+            </li>
+          </ul>
+          <ul id="segment-5" class="product-list image-grid clearfix" style='display: none'>
+            <li data-id="id-10" class="product-teaser environment">
+              <a href="#">
+                <div class="product-image">
+                  <img src="images/content-pics/22shots.png">
+                  <div class="current-mask">
+                    <img src="images/content-pics/22shots-red.png">
+                  </div>
+                </div>
+                <div class="product-name">22 shots</div>
+              </a>
+              <span class="category-quicksand" href='#' data-id='5'>Среда</span>
+            </li>
+          </ul>
+        </div>
+        <div class="up">
+          <a class="up-arrow" href="#"></a>
+        </div>
+      </div>
+    </div>
+    <div class="footer">
+      <div class="footer-inner">
+        <div class="language">
+          <a class="rus current" href="#">Ru</a>
+          <a class="eng" href="#">Eng</a>
+        </div>
+        <ul class="social">
+          <li>
+            <a class="social-kontakt" href="#"></a>
+          </li>
+          <li>
+            <a class="social-fb" href="#"></a>
+          </li>
+          <li>
+            <a class="social-twit" href="#"></a>
+          </li>
+        </ul>
+        <div class="search">
+          <form method="get" id="searchform" action="#">
+            <input id="place-free" type="text" placeholder="Что-то ищете?">
+            <span class="submit-back">
+              <input type="submit" class="go" title="Search" value="">
+            </span>
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

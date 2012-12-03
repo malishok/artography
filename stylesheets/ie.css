@@ -1,0 +1,30 @@
+/* line 1, ../sass/ie.sass */
+.wrapper {
+  width: 100%;
+}
+
+/* line 7, ../sass/ie.sass */
+.search {
+  border: 1px solid #cccccc;
+}
+
+/* line 13, ../sass/ie.sass */
+.required {
+  border: 1px solid #cccccc;
+}
+
+/* line 19, ../sass/ie.sass */
+.clearfix {
+  *zoom: 1;
+}
+
+/* line 25, ../sass/ie.sass */
+dd {
+  display: none;
+}
+
+/* line 31, ../sass/ie.sass */
+.opened {
+  background: #d71e14;
+  display: block;
+}

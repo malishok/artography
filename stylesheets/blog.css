@@ -1,0 +1,320 @@
+/* line 3, ../sass/blog.sass */
+.blog-content {
+  margin-right: 30%;
+  padding-right: 85px;
+}
+
+/* line 7, ../sass/blog.sass */
+.aside {
+  top: 48px;
+  right: 0;
+  float: right;
+  width: 28%;
+  word-wrap: break-word;
+  position: absolute;
+}
+
+/* line 16, ../sass/blog.sass */
+.pagination {
+  top: 0;
+  left: 0;
+  height: 37px;
+  width: 100%;
+  background: white;
+}
+/* line 22, ../sass/blog.sass */
+.pagination a {
+  background: transparent url("../images/icons/blog-dot.png") 0 0 no-repeat;
+  display: block;
+  position: relative;
+  top: 0;
+  left: 0;
+  margin-right: 10px;
+  width: 10px;
+  height: 10px;
+  -webkit-transition: 0.4s;
+  -moz-transition: 0.4s;
+  -o-transition: 0.4s;
+  transition: 0.4s;
+}
+/* line 32, ../sass/blog.sass */
+.pagination a:hover, .pagination .pager-active {
+  background: transparent url("../images/icons/blog-dot-active.png") 0 0 no-repeat;
+}
+
+/* line 35, ../sass/blog.sass */
+.vertical {
+  margin-top: 7px;
+}
+/* line 37, ../sass/blog.sass */
+.vertical .carousel-inner {
+  height: 100%;
+}
+/* line 39, ../sass/blog.sass */
+.vertical .carousel-inner .item {
+  margin-top: 37px;
+  -webkit-transition: 1s top;
+  -moz-transition: 1s top;
+  -o-transition: 1s top;
+  transition: 1s top;
+  overflow: hidden;
+  left: 0;
+}
+/* line 44, ../sass/blog.sass */
+.vertical .active {
+  top: 0;
+}
+/* line 46, ../sass/blog.sass */
+.vertical .active .left {
+  top: -100%;
+}
+/* line 48, ../sass/blog.sass */
+.vertical .active .right {
+  top: -100%;
+}
+/* line 50, ../sass/blog.sass */
+.vertical .next {
+  top: -100%;
+}
+/* line 52, ../sass/blog.sass */
+.vertical .next .left, .vertical .next .right {
+  top: 0;
+}
+/* line 54, ../sass/blog.sass */
+.vertical .prev {
+  top: -100%;
+}
+
+/* line 58, ../sass/blog.sass */
+.list li {
+  margin-bottom: 25px;
+}
+/* line 60, ../sass/blog.sass */
+.list li a {
+  display: block;
+}
+/* line 63, ../sass/blog.sass */
+.list li a:hover .post-content {
+  color: #ef261c;
+}
+
+/* line 66, ../sass/blog.sass */
+.post-content {
+  color: #666666;
+  font-size: 13px;
+}
+
+/* line 70, ../sass/blog.sass */
+.news-list {
+  padding-bottom: 6px;
+  line-height: 1.6;
+}
+
+/* line 74, ../sass/blog.sass */
+.date {
+  font-size: 9px;
+  color: #999999;
+}
+
+/* line 78, ../sass/blog.sass */
+.featured {
+  background: none;
+  margin-bottom: 0;
+  padding-bottom: 50px;
+}
+
+/* line 83, ../sass/blog.sass */
+.post-header {
+  margin-bottom: 20px;
+}
+/* line 85, ../sass/blog.sass */
+.post-header h1 {
+  display: block;
+  color: #eb2519;
+  font-size: 20px;
+  line-height: 1;
+  padding-bottom: 5px;
+}
+/* line 91, ../sass/blog.sass */
+.post-header .datetime {
+  color: #999999;
+}
+
+/* line 94, ../sass/blog.sass */
+.post-image {
+  margin-bottom: 34px;
+}
+/* line 96, ../sass/blog.sass */
+.post-image img {
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+  width: 460px;
+  height: auto;
+  display: block;
+  position: relative;
+  border: none;
+}
+
+/* line 104, ../sass/blog.sass */
+.post-about {
+  margin-bottom: 35px;
+}
+/* line 106, ../sass/blog.sass */
+.post-about p {
+  font-size: 14px;
+  color: #333333;
+  line-height: 1.7;
+}
+
+/* line 114, ../sass/blog.sass */
+.company-faces {
+  margin-bottom: 38px;
+  line-height: 0;
+}
+
+/* line 118, ../sass/blog.sass */
+.face-image {
+  width: auto;
+  height: auto;
+  float: none;
+}
+/* line 122, ../sass/blog.sass */
+.face-image img {
+  width: auto;
+  height: 125px;
+}
+
+/* line 126, ../sass/blog.sass */
+.face-left {
+  margin-right: 122px;
+}
+
+/* line 128, ../sass/blog.sass */
+.face-name {
+  font-size: 14px;
+  line-height: 1;
+  padding-bottom: 8px;
+}
+
+/* line 132, ../sass/blog.sass */
+.face-contact {
+  top: 0;
+  margin-top: 18px;
+  line-height: 1.2;
+}
+
+/* line 140, ../sass/blog.sass */
+.respond {
+  padding: 0 0 45px;
+}
+/* line 142, ../sass/blog.sass */
+.respond h4 {
+  font-size: 14px;
+  margin: 0 0 7px;
+}
+/* line 145, ../sass/blog.sass */
+.respond form {
+  margin: 5px 0 0;
+  padding: 7px 0 0;
+}
+/* line 148, ../sass/blog.sass */
+.respond form textarea {
+  height: 130px;
+  width: 440px;
+  background: #fdfdfd;
+  border: none;
+  color: #666666;
+  font-size: 14px;
+  padding: 10px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+  -webkit-box-shadow: inset 0 2px 7px rgba(0, 0, 0, 0.4);
+  -moz-box-shadow: inset 0 2px 7px rgba(0, 0, 0, 0.4);
+  box-shadow: inset 0 2px 7px rgba(0, 0, 0, 0.4);
+}
+/* line 158, ../sass/blog.sass */
+.respond form input {
+  float: left;
+}
+/* line 160, ../sass/blog.sass */
+.respond form label {
+  display: block;
+  font-size: 11px;
+  position: relative;
+  top: 9px;
+  float: left;
+}
+
+/* line 168, ../sass/blog.sass */
+.buttons {
+  margin-top: 18px;
+  display: inline-block;
+}
+
+/* line 171, ../sass/blog.sass */
+.button {
+  position: relative;
+  float: left;
+  display: inline-block;
+  cursor: pointer;
+  height: 32px;
+}
+
+/* line 177, ../sass/blog.sass */
+.button-grey {
+  background: transparent url("../images/icons/button-resume.png") 0 0 no-repeat;
+  width: 182px;
+  margin-right: 11px;
+}
+
+/* line 181, ../sass/blog.sass */
+.button-red {
+  background: transparent url("../images/icons/button-send.png") 0 0 no-repeat;
+  width: 122px;
+  margin-right: 19px;
+  left: -1px;
+}
+
+/* line 188, ../sass/blog.sass */
+.button-grey:hover, .button-red:hover {
+  background-position: 0 -32px;
+}
+/* line 190, ../sass/blog.sass */
+.button-grey:active, .button-red:active {
+  background-position: 0 -64px;
+}
+
+/* line 196, ../sass/blog.sass */
+.post-footer .likes {
+  width: 460px;
+  min-width: 460px;
+  white-space: nowrap;
+  line-height: 0.4;
+}
+/* line 201, ../sass/blog.sass */
+.post-footer .likes li {
+  display: inline-block;
+  padding-right: 8px;
+  margin: 0 auto;
+  white-space: nowrap;
+}
+/* line 206, ../sass/blog.sass */
+.post-footer .likes li a {
+  display: block;
+  position: relative;
+  max-width: 100%;
+  white-space: nowrap;
+}
+/* line 211, ../sass/blog.sass */
+.post-footer .likes li a img {
+  display: block;
+  position: relative;
+  height: 22px;
+  width: auto;
+}

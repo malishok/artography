@@ -1,0 +1,199 @@
+/* line 3, ../sass/projects.sass */
+.header {
+  height: 194px;
+}
+
+/* line 6, ../sass/projects.sass */
+.container {
+  padding-top: 194px;
+}
+
+/* line 10, ../sass/projects.sass */
+.header-inner {
+  padding-bottom: 58px;
+}
+
+/* line 14, ../sass/projects.sass */
+.page-nav-back {
+  float: right;
+  clear: both;
+  margin-top: 40px;
+  height: 22px;
+  background: white url("../images/icons/nav-back-left.png") left bottom no-repeat;
+}
+/* line 20, ../sass/projects.sass */
+.page-nav-back .page-nav {
+  position: relative;
+  padding: 2px 3px;
+  float: left;
+  height: 18px;
+  display: inline-block;
+  background: url("../images/icons/nav-back-right.jpg") right bottom no-repeat;
+  z-index: 5;
+}
+/* line 28, ../sass/projects.sass */
+.page-nav-back .page-nav li {
+  display: inline-block;
+  position: relative;
+  top: 1px;
+}
+/* line 32, ../sass/projects.sass */
+.page-nav-back .page-nav li a {
+  display: block;
+  position: relative;
+  cursor: pointer;
+  color: #666666;
+  font-size: 11px;
+  z-index: 10000000;
+  line-height: 1.4;
+  padding: 0 1em;
+}
+/* line 41, ../sass/projects.sass */
+.page-nav-back .page-nav li a:hover {
+  color: #e42218;
+}
+/* line 43, ../sass/projects.sass */
+.page-nav-back .page-nav li .red-bg {
+  width: 0;
+  height: 100%;
+  background: #e42218;
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 2;
+}
+/* line 52, ../sass/projects.sass */
+.page-nav-back .page-nav li .first-element {
+  -moz-border-radius-topleft: 5px;
+  -webkit-border-top-left-radius: 5px;
+  border-top-left-radius: 5px;
+  -moz-border-radius-bottomleft: 5px;
+  -webkit-border-bottom-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+/* line 55, ../sass/projects.sass */
+.page-nav-back .page-nav li .last-element {
+  -moz-border-radius-topright: 5px;
+  -webkit-border-top-right-radius: 5px;
+  border-top-right-radius: 5px;
+  -moz-border-radius-bottomright: 5px;
+  -webkit-border-bottom-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+/* line 58, ../sass/projects.sass */
+.page-nav-back .page-nav .link-last {
+  padding-right: 5px;
+}
+/* line 60, ../sass/projects.sass */
+.page-nav-back .page-nav .link-first {
+  padding-left: 5px;
+}
+/* line 63, ../sass/projects.sass */
+.page-nav-back .page-nav .selected .red-bg {
+  -webkit-transition: all 0.7s ease;
+  -moz-transition: all 0.7s ease;
+  -o-transition: all 0.7s ease;
+  transition: all 0.7s ease;
+  width: 100%;
+}
+/* line 66, ../sass/projects.sass */
+.page-nav-back .page-nav .selected a {
+  color: white;
+}
+/* line 69, ../sass/projects.sass */
+.page-nav-back .page-nav .selected:hover a {
+  color: white;
+}
+
+/* line 75, ../sass/projects.sass */
+.product-list {
+  margin-right: -60px;
+}
+/* line 77, ../sass/projects.sass */
+.product-list .product-teaser {
+  float: left;
+  margin: 0 0 4.8em;
+  padding: 0 60px 0 0;
+  width: 220px;
+  margin-bottom: 35px;
+}
+/* line 83, ../sass/projects.sass */
+.product-list .product-teaser a {
+  display: block;
+  text-decoration: underline;
+  font-size: 13px;
+  font-weight: bold;
+  line-height: 1.6;
+  width: 220px;
+}
+/* line 90, ../sass/projects.sass */
+.product-list .product-teaser a .current-mask {
+  position: absolute;
+  display: block;
+  top: 0;
+  left: 0;
+  width: 220px;
+  height: 150px;
+  overflow: hidden;
+  -webkit-transition: all 0.4s ease-in-out;
+  -moz-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+}
+/* line 100, ../sass/projects.sass */
+.product-list .product-teaser a .current-mask img {
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+  opacity: 0;
+}
+/* line 102, ../sass/projects.sass */
+.product-list .product-teaser a:hover {
+  color: #e42218;
+}
+/* line 104, ../sass/projects.sass */
+.product-list .product-teaser a:hover .product-name {
+  color: #e42218;
+}
+/* line 106, ../sass/projects.sass */
+.product-list .product-teaser a:hover img {
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+  opacity: 1;
+}
+/* line 108, ../sass/projects.sass */
+.product-list .product-teaser a .product-image {
+  margin-bottom: 5px;
+}
+/* line 110, ../sass/projects.sass */
+.product-list .product-teaser a .product-image img {
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+  width: 220px;
+  height: 150px;
+  position: relative;
+  -webkit-transition: all 0.4s ease-in-out;
+  -moz-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+/* line 116, ../sass/projects.sass */
+.product-list .product-teaser a .product-name {
+  width: 100%;
+  clear: both;
+  color: #333333;
+}
+/* line 120, ../sass/projects.sass */
+.product-list .product-teaser .category-quicksand {
+  font-size: 11px;
+  font-weight: bold;
+  text-decoration: none;
+  line-height: 1.6;
+  color: #666666;
+}

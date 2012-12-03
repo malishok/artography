@@ -1,0 +1,183 @@
+/* line 13, ../sass/index.sass */
+.index-control-left {
+  position: absolute;
+  top: 48%;
+  left: 30px;
+}
+
+/* line 17, ../sass/index.sass */
+.index-control-right {
+  position: absolute;
+  top: 48%;
+  right: 60px;
+}
+
+/* line 24, ../sass/index.sass */
+.nav .current .nav-line {
+  width: 0;
+}
+
+/* line 28, ../sass/index.sass */
+.slider {
+  margin-bottom: 50px;
+  width: 100%;
+  height: 520px;
+  overflow: hidden;
+}
+/* line 4, ../sass/index.sass */
+.slider::after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+/* line 35, ../sass/index.sass */
+.slider #carousel .carousel-control {
+  z-index: 50;
+}
+/* line 37, ../sass/index.sass */
+.slider #carousel .left {
+  background: transparent url("../images/colorbox/previous.png") 0 0 no-repeat;
+}
+/* line 39, ../sass/index.sass */
+.slider #carousel .left:hover {
+  background: transparent url("../images/colorbox/previous-hover.png") 0 0 no-repeat;
+}
+/* line 41, ../sass/index.sass */
+.slider #carousel .right {
+  background: transparent url("../images/colorbox/next.png") 0 0 no-repeat;
+}
+/* line 43, ../sass/index.sass */
+.slider #carousel .right:hover {
+  background: transparent url("../images/colorbox/next-hover.png") 0 0 no-repeat;
+}
+/* line 46, ../sass/index.sass */
+.slider #carousel .carousel-inner .item {
+  width: 100%;
+  height: 520px;
+  clear: both;
+  float: none;
+}
+/* line 51, ../sass/index.sass */
+.slider #carousel .carousel-inner .item img {
+  display: block;
+  position: relative;
+  width: 100%;
+  height: 520px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+}
+/* line 57, ../sass/index.sass */
+.slider .slider-corner {
+  position: absolute;
+  top: -3px;
+  left: -3px;
+  height: 518px;
+  width: 778px;
+  border: 5px solid white;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+/* line 70, ../sass/index.sass */
+.news-leftside {
+  float: left;
+  width: 510px;
+  margin-bottom: 35px;
+}
+
+/* line 75, ../sass/index.sass */
+.news-rightside {
+  width: 220px;
+  float: right;
+  margin-bottom: 35px;
+}
+
+/* line 80, ../sass/index.sass */
+.post {
+  margin-bottom: 20px;
+}
+/* line 82, ../sass/index.sass */
+.post a {
+  position: relative;
+  display: block;
+}
+/* line 86, ../sass/index.sass */
+.post a:hover p {
+  color: #ef261c;
+}
+
+/* line 89, ../sass/index.sass */
+.news-line {
+  height: 0;
+  width: 20%;
+  position: relative;
+  display: block;
+  border-bottom: 1px solid #cccccc;
+  padding-top: 17px;
+}
+
+/* line 97, ../sass/index.sass */
+.post-image {
+  height: auto;
+  width: 100%;
+  margin-bottom: 20px;
+}
+/* line 101, ../sass/index.sass */
+.post-image img {
+  position: relative;
+  display: block;
+  height: auto;
+}
+
+/* line 107, ../sass/index.sass */
+.news-leftside img {
+  width: 510px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+}
+
+/* line 112, ../sass/index.sass */
+.news-rightside img {
+  width: 220px;
+}
+
+/* line 115, ../sass/index.sass */
+.date {
+  font-size: 11px;
+  margin-bottom: 3px;
+  color: #999999;
+  position: relative;
+  display: block;
+}
+
+/* line 123, ../sass/index.sass */
+.post-content p {
+  font-size: 14px;
+  line-height: 1.4;
+  color: #333333;
+}
+
+/* line 128, ../sass/index.sass */
+.all-news {
+  display: none;
+  font-weight: 600;
+  font-size: 12px;
+  text-decoration: underline;
+}
+/* line 133, ../sass/index.sass */
+.all-news:hover {
+  color: #ef261c;
+  text-decoration: underline;
+}

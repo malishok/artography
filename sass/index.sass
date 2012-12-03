@@ -1,0 +1,135 @@
+@import 'compass/css3'
+
+@mixin clearfix()
+  &::after
+    content: "."
+    display: block
+    height: 0
+    clear: both
+    visibility: hidden
+    
+
+// Стрелки прокрутки слайдера
+.index-control-left
+  position: absolute
+  top: 48%
+  left: 30px
+.index-control-right
+  position: absolute
+  top: 48%
+  right: 60px
+  
+.nav
+  .current
+    .nav-line
+      width: 0
+
+// Слайдер заглавный и маска углов
+.slider
+  margin-bottom: 50px
+  width: 100%
+  height: 520px
+  overflow: hidden
+  +clearfix()
+  #carousel
+    .carousel-control
+      z-index: 50
+    .left
+      background: transparent url('../images/colorbox/previous.png') 0 0 no-repeat
+      &:hover
+        background: transparent url('../images/colorbox/previous-hover.png') 0 0 no-repeat
+    .right
+      background: transparent url('../images/colorbox/next.png') 0 0 no-repeat
+      &:hover
+        background: transparent url('../images/colorbox/next-hover.png') 0 0 no-repeat
+    .carousel-inner
+      .item
+        width: 100%
+        height: 520px
+        clear: both
+        float: none
+        img
+          display: block
+          position: relative
+          width: 100%
+          height: 520px
+          +border-radius(5px)
+  .slider-corner
+    position: absolute
+    top: -3px
+    left: -3px
+    height: 518px
+    width: 778px
+    border: 5px solid white
+    +border-radius(10px)
+    overflow: hidden
+
+
+
+// Новости компании
+.news-leftside
+  float: left
+  width: 510px
+  margin-bottom: 35px
+  
+.news-rightside
+  width: 220px
+  float: right
+  margin-bottom: 35px
+
+.post
+  margin-bottom: 20px
+  a
+    position: relative
+    display: block
+    &:hover
+      p
+        color: #EF261C
+
+.news-line
+  height: 0
+  width: 20%
+  position: relative
+  display: block
+  border-bottom: 1px solid #CCCCCC
+  padding-top: 17px
+
+.post-image
+  height: auto
+  width: 100%
+  margin-bottom: 20px
+  img
+    position: relative
+    display: block
+    height: auto
+
+.news-leftside
+  img
+    width: 510px
+    +border-radius(5px)
+    
+.news-rightside
+  img
+    width: 220px
+
+.date
+  font-size: 11px
+  margin-bottom: 3px
+  color: #999
+  position: relative
+  display: block
+
+.post-content
+  p
+    font-size: 14px
+    line-height: 1.4
+    color: #333
+    
+.all-news
+  display: none
+  font-weight: 600
+  font-size: 12px
+  text-decoration: underline
+  &:hover
+    color: #EF261C
+    text-decoration: underline

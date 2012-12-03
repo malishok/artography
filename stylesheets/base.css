@@ -1,0 +1,176 @@
+/* line 3, ../sass/base.sass */
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  border: 0;
+  vertical-align: baseline;
+  font-size: 100%;
+  font-weight: inherit;
+  font-style: inherit;
+}
+
+/* line 15, ../sass/base.sass */
+.clearfix:before,
+.clearfix:after {
+  content: " ";
+  display: table;
+}
+
+/* line 20, ../sass/base.sass */
+.clearfix:after {
+  clear: both;
+}
+
+/* line 25, ../sass/base.sass */
+html {
+  font-size: 100%;
+  background: transparent url("../images/icons/main-back.jpg") 0 0 repeat;
+  display: block;
+  cursor: default;
+  height: 100%;
+  min-height: 100%;
+}
+
+/* line 33, ../sass/base.sass */
+html, body, input, textarea, select {
+  font-family: Helvetica;
+  color: #666666;
+}
+
+/* line 38, ../sass/base.sass */
+input .placeholder, textarea .placeholder {
+  color: #666666;
+}
+
+/* line 41, ../sass/base.sass */
+div {
+  display: block;
+  position: relative;
+}
+
+/* line 45, ../sass/base.sass */
+a {
+  text-decoration: none;
+  cursor: pointer;
+  color: #333333;
+  outline: none;
+}
+/* line 50, ../sass/base.sass */
+a:hover {
+  text-decoration: none;
+  color: #333333;
+}
+
+/* line 54, ../sass/base.sass */
+ul {
+  display: block;
+  list-style: none;
+  margin: 0;
+}
+
+/* line 59, ../sass/base.sass */
+li {
+  list-style: none;
+}
+
+/* line 62, ../sass/base.sass */
+::selection {
+  background: black;
+  color: white;
+  text-shadow: none;
+}
+
+/* line 67, ../sass/base.sass */
+body {
+  margin: 0;
+  padding: 0;
+  font: 62.5% Helvetica, sans-serif;
+  display: block;
+  height: 100%;
+  min-height: 100%;
+}
+
+/* line 75, ../sass/base.sass */
+.wrapper {
+  width: 100%;
+  min-height: 100%;
+  margin: 0 auto -70px;
+}
+
+/* line 80, ../sass/base.sass */
+.white-mask {
+  width: 964px;
+  height: 100%;
+  background: white;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* line 91, ../sass/base.sass */
+.container {
+  background: white;
+  width: 780px;
+  margin: 0 auto;
+  padding: 109px 92px 70px;
+  min-height: 100%;
+}
+
+/* line 98, ../sass/base.sass */
+.shadows {
+  position: absolute;
+  max-width: 1064px;
+  height: 100%;
+  background-image: url("../images/icons/main-shadow.png"), url("../images/icons/main-shadow-right.png");
+  background-repeat: repeat-y, repeat-y;
+  background-position: left top, right top;
+  overflow: hidden;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* line 111, ../sass/base.sass */
+.header {
+  z-index: 999;
+  position: fixed;
+  height: 109px;
+  top: 0;
+  width: 780px;
+  margin: 0 auto;
+  background: white;
+}
+
+/* line 120, ../sass/base.sass */
+.header-inner {
+  padding: 40px 0 35px;
+  margin: 0 auto;
+}
+
+/* line 124, ../sass/base.sass */
+.page-content {
+  width: 780px;
+  padding: 0 92px;
+  left: -92px;
+}
+
+/* line 129, ../sass/base.sass */
+.footer {
+  background: white;
+  margin: 0 auto;
+  height: 70px;
+  width: 780px;
+  padding: 0 92px;
+}
+
+/* line 136, ../sass/base.sass */
+.footer-inner {
+  height: 33px;
+  margin: 0 auto;
+  border-top: 1px solid #cccccc;
+  padding: 20px 0 0 0;
+}

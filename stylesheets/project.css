@@ -1,0 +1,137 @@
+/* line 3, ../sass/project.sass */
+.page-content {
+  margin-bottom: 20px;
+}
+
+/* line 6, ../sass/project.sass */
+.item {
+  width: 100%;
+  height: 100%;
+  clear: both;
+  float: none;
+}
+/* line 11, ../sass/project.sass */
+.item img {
+  display: block;
+  position: relative;
+  width: 780px;
+  height: auto;
+}
+
+/* line 17, ../sass/project.sass */
+.project-caption {
+  margin-bottom: 32px;
+}
+
+/* line 20, ../sass/project.sass */
+.about-project {
+  width: 60%;
+  float: left;
+  margin-right: 60px;
+}
+/* line 24, ../sass/project.sass */
+.about-project h1 {
+  color: #ef251b;
+  font-size: 22px;
+  font-weight: bold;
+  position: relative;
+  margin-bottom: 20px;
+}
+/* line 30, ../sass/project.sass */
+.about-project p, .about-project .on-sale {
+  padding-bottom: 17px;
+  font-size: 13px;
+  line-height: 1.5;
+  color: #666666;
+  font-family: Helvetica;
+}
+/* line 36, ../sass/project.sass */
+.about-project p:last-child, .about-project .on-sale:last-child {
+  padding-bottom: 0;
+}
+
+/* line 39, ../sass/project.sass */
+.sold-line {
+  color: #ef251b;
+  text-decoration: line-through;
+}
+
+/* line 43, ../sass/project.sass */
+.about-author {
+  width: 28%;
+  float: right;
+}
+/* line 46, ../sass/project.sass */
+.about-author h2 {
+  color: #ef251b;
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 17px;
+  line-height: 1.9;
+}
+
+/* line 53, ../sass/project.sass */
+.position, .author {
+  font-size: 12px;
+}
+
+/* line 55, ../sass/project.sass */
+.position {
+  color: black;
+  line-height: 2;
+  font-weight: bold;
+}
+
+/* line 60, ../sass/project.sass */
+.author {
+  color: #666666;
+  margin-bottom: 5px;
+}
+
+/* line 66, ../sass/project.sass */
+.up {
+  right: 20%;
+}
+
+/* line 72, ../sass/project.sass */
+.project-control-left, .project-control-right {
+  position: absolute;
+  width: 34px;
+  height: 100%;
+  top: 0;
+}
+/* line 77, ../sass/project.sass */
+.project-control-left .left, .project-control-left .right, .project-control-right .left, .project-control-right .right {
+  position: fixed;
+  white-space: nowrap;
+  top: 50%;
+  height: 64px;
+  width: 34px;
+  z-index: 50;
+}
+/* line 84, ../sass/project.sass */
+.project-control-left .left, .project-control-right .left {
+  background: transparent url("../images/colorbox/previous.png") 0 0 no-repeat;
+}
+/* line 86, ../sass/project.sass */
+.project-control-left .left:hover, .project-control-right .left:hover {
+  background: transparent url("../images/colorbox/previous-hover.png") 0 0 no-repeat;
+}
+/* line 88, ../sass/project.sass */
+.project-control-left .right, .project-control-right .right {
+  background: transparent url("../images/colorbox/next.png") 0 0 no-repeat;
+}
+/* line 90, ../sass/project.sass */
+.project-control-left .right:hover, .project-control-right .right:hover {
+  background: transparent url("../images/colorbox/next-hover.png") 0 0 no-repeat;
+}
+
+/* line 92, ../sass/project.sass */
+.project-control-left {
+  left: -60px;
+}
+
+/* line 94, ../sass/project.sass */
+.project-control-right {
+  right: -60px;
+}

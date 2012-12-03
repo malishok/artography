@@ -1,0 +1,336 @@
+/* line 4, ../sass/studio.sass */
+.slider {
+  margin-bottom: 37px;
+  width: 100%;
+  height: 260px;
+  overflow: hidden;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+}
+/* line 11, ../sass/studio.sass */
+.slider #carousel .carousel-control {
+  z-index: 50;
+}
+/* line 13, ../sass/studio.sass */
+.slider #carousel .left {
+  background: transparent url("../images/colorbox/previous.png") 0 0 no-repeat;
+}
+/* line 15, ../sass/studio.sass */
+.slider #carousel .left:hover {
+  background: transparent url("../images/colorbox/previous-hover.png") 0 0 no-repeat;
+}
+/* line 17, ../sass/studio.sass */
+.slider #carousel .right {
+  background: transparent url("../images/colorbox/next.png") 0 0 no-repeat;
+}
+/* line 19, ../sass/studio.sass */
+.slider #carousel .right:hover {
+  background: transparent url("../images/colorbox/next-hover.png") 0 0 no-repeat;
+}
+
+/* line 23, ../sass/studio.sass */
+.carousel-inner .item {
+  width: 100%;
+  height: 260px;
+}
+/* line 26, ../sass/studio.sass */
+.carousel-inner .item img {
+  display: block;
+  width: 100%;
+  height: 260px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+}
+
+/* line 32, ../sass/studio.sass */
+.slider-corner {
+  position: absolute;
+  top: -3px;
+  left: -3px;
+  height: 258px;
+  width: 779px;
+  border: 5px solid white;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+/* line 46, ../sass/studio.sass */
+.left {
+  top: 48%;
+  left: 30px;
+}
+
+/* line 49, ../sass/studio.sass */
+.right {
+  top: 48%;
+  right: 30px;
+}
+
+/* line 56, ../sass/studio.sass */
+.about-company {
+  margin-bottom: 34px;
+}
+/* line 58, ../sass/studio.sass */
+.about-company p {
+  font-size: 14px;
+  line-height: 1.4;
+  font-family: Helvetica;
+}
+
+/* line 67, ../sass/studio.sass */
+.company-faces {
+  margin-bottom: 18px;
+}
+/* line 70, ../sass/studio.sass */
+.company-faces ul .face-left {
+  margin-right: 52px;
+}
+
+/* line 73, ../sass/studio.sass */
+.face-contact {
+  top: 18px;
+}
+/* line 75, ../sass/studio.sass */
+.face-contact a {
+  line-height: 1.5;
+}
+
+/* line 81, ../sass/studio.sass */
+.prices {
+  float: left;
+  border: 3px solid #ef251b;
+  width: 516px;
+  height: 225px;
+  margin-bottom: 50px;
+}
+
+/* line 88, ../sass/studio.sass */
+.type-inner {
+  margin: 0 15px 0;
+  color: #333333;
+}
+
+/* line 92, ../sass/studio.sass */
+.arrow-start {
+  position: absolute;
+  top: 10px;
+  width: 95%;
+  background: transparent url("../images/icons/arrow-start.png") repeat-x;
+  height: 12px;
+  z-index: 1;
+}
+
+/* line 100, ../sass/studio.sass */
+.type, .price-from {
+  font-weight: normal;
+  line-height: 1;
+}
+
+/* line 104, ../sass/studio.sass */
+.type {
+  background: white;
+  z-index: 3;
+  position: relative;
+  font-size: 21px;
+  padding-right: 20px;
+  line-height: 1.3;
+  float: left;
+  cursor: pointer;
+}
+/* line 113, ../sass/studio.sass */
+.type .line-dotted {
+  position: relative;
+  display: block;
+  height: 1px;
+  width: auto;
+  top: -3px;
+  background: url(../images/icons/line-dotted.png) 0 0 repeat-x;
+}
+/* line 120, ../sass/studio.sass */
+.type:hover {
+  color: #ef251b;
+}
+/* line 122, ../sass/studio.sass */
+.type:hover .line-dotted {
+  width: 0;
+}
+
+/* line 125, ../sass/studio.sass */
+.right-side {
+  z-index: 2;
+  background: white;
+  float: right;
+  min-width: 96px;
+}
+/* line 130, ../sass/studio.sass */
+.right-side img {
+  width: 10px;
+  height: 12px;
+  z-index: 2;
+  display: block;
+  position: relative;
+  top: 10px;
+  float: left;
+}
+
+/* line 139, ../sass/studio.sass */
+.price-from {
+  float: right;
+  padding-left: 20px;
+  font-size: 19px;
+  line-height: 1.6;
+}
+
+/* line 145, ../sass/studio.sass */
+.prices-caption {
+  padding: 12px 15px 25px 15px;
+}
+
+/* line 148, ../sass/studio.sass */
+.our-work, .our-price {
+  color: #ef251b;
+  font-size: 17px;
+  font-weight: bold;
+  display: block;
+  position: relative;
+}
+
+/* line 154, ../sass/studio.sass */
+.our-work {
+  float: left;
+}
+
+/* line 156, ../sass/studio.sass */
+.our-price {
+  float: right;
+}
+
+/* line 159, ../sass/studio.sass */
+dd {
+  height: 0;
+  overflow: hidden;
+  -webkit-transition: opacity 0.5s ease-in-out;
+  -moz-transition: opacity 0.5s ease-in-out;
+  -o-transition: opacity 0.5s ease-in-out;
+  transition: opacity 0.5s ease-in-out;
+  -webkit-transition-duration: 0.5s ease-in-out;
+  -moz-transition-duration: 0.5s ease-in-out;
+  -o-transition-duration: 0.5s ease-in-out;
+  transition-duration: 0.5s ease-in-out;
+  opacity: 1;
+}
+
+/* line 166, ../sass/studio.sass */
+.opened {
+  opacity: 1;
+  width: 488px;
+  position: relative;
+  height: 174px;
+  top: -2px;
+  bottom: -2px;
+  left: -2px;
+  padding: 16px 16px 40px;
+  color: white;
+  background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #d71e14), color-stop(100%, #ef251b));
+  background: -webkit-linear-gradient(#d71e14, #ef251b);
+  background: -moz-linear-gradient(#d71e14, #ef251b);
+  background: -o-linear-gradient(#d71e14, #ef251b);
+  background: linear-gradient(#d71e14, #ef251b);
+}
+/* line 177, ../sass/studio.sass */
+.opened .type-name {
+  font-size: 0;
+  padding: 0 0 30px 0;
+}
+/* line 180, ../sass/studio.sass */
+.opened .type-name .type-left, .opened .type-name .close-right {
+  position: relative;
+  display: inline-block;
+  font-size: 22px;
+  width: 100%;
+  margin-right: -100%;
+}
+/* line 186, ../sass/studio.sass */
+.opened .type-name .close-right {
+  text-align: right;
+}
+/* line 188, ../sass/studio.sass */
+.opened .type-name .close-right .close-popup {
+  position: relative;
+  display: inline-block;
+  background: url("../images/icons/close.png") 0 0 no-repeat;
+  height: 17px;
+  width: 17px;
+  cursor: pointer;
+}
+/* line 195, ../sass/studio.sass */
+.opened p {
+  font-size: 16px;
+  line-height: 1.5;
+  font-weight: normal;
+}
+
+/* line 203, ../sass/studio.sass */
+.links {
+  float: right;
+  width: 28%;
+  margin-bottom: 50px;
+}
+/* line 207, ../sass/studio.sass */
+.links p {
+  position: relative;
+  left: -0.5px;
+}
+/* line 210, ../sass/studio.sass */
+.links ul {
+  margin-bottom: 5px;
+}
+/* line 212, ../sass/studio.sass */
+.links ul li {
+  line-height: 1.4;
+}
+/* line 214, ../sass/studio.sass */
+.links ul li a {
+  font-size: 12px;
+  display: inline-block;
+  position: relative;
+}
+/* line 218, ../sass/studio.sass */
+.links ul li a:hover {
+  color: #eb2519;
+}
+/* line 220, ../sass/studio.sass */
+.links ul li a:hover .link-line {
+  border-bottom: 1px solid #eb2519;
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=70);
+  opacity: 0.7;
+}
+
+/* line 224, ../sass/studio.sass */
+.download, .title {
+  font-weight: bold;
+  color: #eb2519;
+}
+
+/* line 228, ../sass/studio.sass */
+.download {
+  font-size: 17px;
+  padding: 15px 0 10px;
+  top: -1px;
+}
+
+/* line 233, ../sass/studio.sass */
+.title {
+  font-size: 14px;
+  line-height: 2;
+}

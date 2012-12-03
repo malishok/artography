@@ -1,0 +1,215 @@
+@import 'compass/css3'
+
+.blog-content
+  margin-right: 30%
+  padding-right: 85px
+
+.aside
+  top: 48px
+  right: 0
+  float: right
+  width: 28%
+  word-wrap: break-word
+  position: absolute
+
+
+.pagination
+  top: 0
+  left: 0
+  height: 37px
+  width: 100%
+  background: white
+  a
+    background: transparent url('../images/icons/blog-dot.png') 0 0 no-repeat
+    display: block
+    position: relative
+    top: 0
+    left: 0
+    margin-right: 10px
+    width: 10px
+    height: 10px
+    +transition(0.4s)
+  a:hover, .pager-active
+    background: transparent url('../images/icons/blog-dot-active.png') 0 0 no-repeat
+
+.vertical
+  margin-top: 7px
+  .carousel-inner
+    height: 100%
+    .item
+      margin-top: 37px
+      +transition(1s top)
+      overflow: hidden
+      left: 0
+  .active
+    top: 0
+    .left
+      top: -100%
+    .right 
+      top: -100%
+  .next
+    top: -100%
+    .left, .right
+      top: 0
+  .prev
+    top: -100%
+
+.list
+  li
+    margin-bottom: 25px
+    a
+      display: block
+      &:hover
+        .post-content
+          color: #EF261C
+
+.post-content
+  color: #666
+  font-size: 13px
+  
+.news-list
+  padding-bottom: 6px
+  line-height: 1.6
+
+.date
+  font-size: 9px
+  color: #999
+
+.featured
+  background: none
+  margin-bottom: 0
+  padding-bottom: 50px  
+
+.post-header
+  margin-bottom: 20px
+  h1
+    display: block
+    color: #EB2519
+    font-size: 20px
+    line-height: 1
+    padding-bottom: 5px
+  .datetime
+    color: #999
+
+.post-image
+  margin-bottom: 34px
+  img
+    +border-radius(5px)
+    width: 460px
+    height: auto
+    display: block
+    position: relative
+    border: none
+
+.post-about
+  margin-bottom: 35px
+  p
+    font-size: 14px
+    color: #333
+    line-height: 1.7
+
+
+
+// Контакты
+.company-faces
+  margin-bottom: 38px
+  line-height: 0
+
+.face-image
+  width: auto
+  height: auto
+  float: none
+  img
+    width: auto
+    height: 125px
+
+.face-left
+  margin-right: 122px
+.face-name
+  font-size: 14px
+  line-height: 1
+  padding-bottom: 8px
+.face-contact
+  top: 0 
+  margin-top: 18px
+  line-height: 1.2
+
+
+
+// Форма заявки
+.respond
+  padding: 0 0 45px
+  h4
+    font-size: 14px
+    margin: 0 0 7px
+  form
+    margin: 5px 0 0
+    padding: 7px 0 0
+    textarea
+      height: 130px
+      width: 440px
+      background: #FDFDFD
+      border: none
+      color: #666
+      font-size: 14px
+      padding: 10px
+      +border-radius(5px)
+      +box-shadow(inset 0 2px 7px rgba(0, 0, 0, 0.4))
+    input
+      float: left
+    label
+      display: block
+      font-size: 11px
+      position: relative
+      top: 9px
+      float: left
+      
+// Кнопки
+.buttons
+  margin-top: 18px
+  display: inline-block
+.button
+  position: relative
+  float: left
+  display: inline-block
+  cursor: pointer
+  height: 32px
+.button-grey
+  background: transparent url('../images/icons/button-resume.png') 0 0 no-repeat
+  width: 182px
+  margin-right: 11px
+.button-red
+  background: transparent url('../images/icons/button-send.png') 0 0 no-repeat
+  width: 122px
+  margin-right: 19px
+  left: -1px
+
+.button-grey, .button-red
+  &:hover
+    background-position: 0 -32px
+  &:active
+    background-position: 0 -64px
+
+
+
+.post-footer
+  .likes
+    width: 460px
+    min-width: 460px
+    white-space: nowrap
+    line-height: 0.4
+    li
+      display: inline-block
+      padding-right: 8px
+      margin: 0 auto
+      white-space: nowrap
+      a
+        display: block
+        position: relative
+        max-width: 100%
+        white-space: nowrap
+        img
+          display: block
+          position: relative
+          height: 22px
+          width: auto
